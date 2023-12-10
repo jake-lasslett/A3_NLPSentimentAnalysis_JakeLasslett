@@ -4,7 +4,10 @@
 
 This project conducts a detailed sentiment analysis of media portrayals regarding the Israel-Palestine conflict. It utilizes advanced Natural Language Processing (NLP) techniques to analyze data from various media sources, including News.com.au, Al Jazeera, and Reddit. The core objective is to uncover the underlying sentiments in the media narratives and public discussions surrounding this complex geopolitical issue.
 
-Note: I have not added the model/result tensorflow/pt files as they are too large (+6GB) 
+Note for assessors: Code is stored in 2 Jupyter Notebook files
+- **A3_WebScraper_JakeLasslett.ipynb**: This caputes the 3 seperate scrapers/API used to gather teh relevent data.
+- **A3_Part2_EDA_PreProcessing_Modelling_JakeLasslett.ipynb**: This captures the remaining analysis
+Note: I have not added the model/result tensorflow/pt files as they are too large (+6GB). Adequate model performance can be observed in the Part 2 notebook.
 
 ## Key Features
 
