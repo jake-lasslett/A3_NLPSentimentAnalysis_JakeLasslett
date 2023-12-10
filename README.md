@@ -4,18 +4,36 @@
 
 This project conducts a detailed sentiment analysis of media portrayals regarding the Israel-Palestine conflict. It utilizes advanced Natural Language Processing (NLP) techniques to analyze data from various media sources, including News.com.au, Al Jazeera, and Reddit. The core objective is to uncover the underlying sentiments in the media narratives and public discussions surrounding this complex geopolitical issue.
 
-Note for assessors: Code is stored in 2 Jupyter Notebook files
+Note for assessors: Code is stored in 2 Jupyter Notebook files. The accompanying WORD doc is submitted on the online portal.
 - **A3_WebScraper_JakeLasslett.ipynb**: This caputes the 3 seperate scrapers/API used to gather teh relevent data.
 - **A3_Part2_EDA_PreProcessing_Modelling_JakeLasslett.ipynb**: This captures the remaining analysis
 Note: I have not added the model/result tensorflow/pt files as they are too large (+6GB). Adequate model performance can be observed in the Part 2 notebook.
 
-## Key Features
+## Key Objectives
+- **Comparative Analysis**: Evaluate how different media outlets represent the Israel-Palestine conflict.
+- **Sentiment Classification**: Classify texts into sentiment categories (positive, negative, neutral) using NLP models.
+- **Bias Identification**: Identify potential biases in media coverage through sentiment distribution analysis.
 
-- **Data Wrangling**: The project involves extensive data wrangling to standardize, clean, and preprocess the text data for analysis.
-- **Sentiment Analysis Model**: Utilizes the Longformer transformer model, known for its effectiveness in handling long text sequences, which is ideal for the varied length of the dataset.
-- **Hyperparameter Tuning**: The model undergoes careful hyperparameter tuning to balance performance and computational efficiency.
-- **Visualization**: Includes various visualizations like confusion matrices and ROC curves to illustrate the model's performance.
-- **Data Augmentation**: Implements data augmentation to address class imbalances in the dataset, ensuring a balanced sentiment analysis.
+## Tech Stack & Modules
+This project utilizes a robust tech stack and various modules, key among them being:
+- **Python**: Primary programming language for data wrangling and analysis.
+- **Longformer**: Transformer model used for processing long sequences in sentiment analysis.
+- **NLTK**: Natural Language Toolkit for text preprocessing and sentiment analysis.
+- **Pandas & NumPy**: Data manipulation and numerical computation.
+- **Matplotlib & Seaborn**: Data visualization and graphical plotting.
+- **Scikit-learn**: Machine learning library for model evaluation and metrics.
+- **Jupyter Notebooks**: Interactive computational environment for running and documenting code.
+- **Beautiful Soup & Requests**: Web scraping tools for data collection.
+
+## Data Sources
+- **News Articles**: Extracted from News.com.au and Al Jazeera.
+- **Reddit Discussions**: Related to the Israel-Palestine conflict.
+- **Data Wrangling**: Includes data cleaning, normalization, and tokenization to prepare for analysis.
+
+## Methodology
+- **Data Wrangling**: Standardizing, cleaning, and preprocessing text data for NLP analysis.
+- **NLP Model**: Utilizing the Longformer transformer model for effective handling of long text sequences.
+- **Visualization**: Utilizing graphs and charts to illustrate the sentiment distribution and trends.
 
 ![](A3_Data_Workflow.png)
 
