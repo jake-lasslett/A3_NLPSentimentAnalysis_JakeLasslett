@@ -24,6 +24,8 @@ This project utilizes a robust tech stack and various modules, key among them be
 - **Scikit-learn**: Machine learning library for model evaluation and metrics.
 - **Jupyter Notebooks**: Interactive computational environment for running and documenting code.
 - **Beautiful Soup & Requests**: Web scraping tools for data collection.
+- **PRAW**: Python Reddit API Wrapper used for scraping Reddit data.
+- **Selenium**: Tool for automating web browser interaction, used in web scraping.
 
 ## Data Sources
 - **News Articles**: Extracted from News.com.au and Al Jazeera.
