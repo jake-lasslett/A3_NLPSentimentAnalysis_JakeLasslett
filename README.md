@@ -30,10 +30,10 @@ This project utilizes a robust tech stack and various modules, key among them be
 ## Data Sources
 - **News Articles**: Extracted from News.com.au and Al Jazeera.
 - **Reddit Discussions**: Related to the Israel-Palestine conflict.
-- **Data Wrangling**: Includes data cleaning, normalization, and tokenization to prepare for analysis.
 
 ## Methodology
-- **Data Wrangling**: Standardizing, cleaning, and preprocessing text data for NLP analysis.
+- **Data Ingestion**: Creating 3 different data ingestion algorithms to view, parse and ingest news article and posts.
+- **Data Wrangling**: Includes data cleaning, normalization, and tokenization to prepare for analysis.
 - **NLP Model**: Utilizing the Longformer transformer model for effective handling of long text sequences.
 - **Visualization**: Utilizing graphs and charts to illustrate the sentiment distribution and trends.
 
@@ -71,7 +71,11 @@ Ensure you have Python installed on your system. This project requires Python 3.
 
 After setting up the environment, you can run the scripts provided in the repository to perform sentiment analysis. Make sure to follow any specific instructions or comments within the scripts to understand the flow and functionality.
 
-## Conclusion
+## Insights
+- As anticipated, negative sentiment was prominent throughout the majority of posts, with news.com.au the most negetive over the longest period on average.
 
-This project aims to shed light on the sentiment dynamics in media coverage of the Israel-Palestine conflict. Through the use of sophisticated machine learning models and NLP techniques, it provides a nuanced understanding of the diverse perspectives presented in different media outlets.
+## Conclusion
+As anticipated, negative sentiment was prominent throughout the majority of posts, with news.com.au the most negetive over the longest period on average.
+
+This project aims to shed light on the sentiment dynamics in media coverage of the Israel-Palestine conflict. more analysis is required.
 
